@@ -1,0 +1,33 @@
+{
+    "name": "rdtsas/multiclient",
+    "description": "Multi client site and aplicactions with laravel and databases.",
+    "keywords": ["laravel", "Multi site", "Database","Multi platform"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Red Dan Technology",
+            "email": "rdtechnologysas@gmail.com"
+        }
+    ],
+    "homepage": "https://reddantechnology.com",
+    "support": {
+        "issues": "https://github.com/rdtsas/multiclient/issues",
+        "source": "https://github.com/rdtsas/multiclient"
+    },
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Rdtsas\\Multiclient\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rdtsas\\Multiclient\\MulticlientServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
